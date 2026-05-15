@@ -1,0 +1,3597 @@
+{
+  "metadata": {
+    "generatedAt": "2026-05-15T00:33:35.326Z",
+    "refreshCadence": "6 hours",
+    "statusText": "Market data refreshed. Days on market were recalculated from listing dates.",
+    "schoolScoreMetric": "GreatSchools public profile Test Score Rating percentile, e.g. outperforms 99% of similar schools in California",
+    "listingFilters": "Single-family homes, at least 3 beds and 2 baths, Palo Alto / Los Altos / Cupertino / Mountain View / Hillsborough / San Mateo / San Carlos / Belmont / Los Gatos",
+    "greatSchoolsVerifiedAt": "2026-05-03T21:32:07.655Z",
+    "greatSchoolsVerifiedSchools": 58,
+    "greatSchoolsUnverifiedSchools": [],
+    "assignmentSourceMode": "listing-source",
+    "listingFeedMode": "staged",
+    "assignmentResolvedAt": "2026-05-03T21:30:47.435Z",
+    "assignmentResolvedCandidates": 22,
+    "listingCoverageText": "Showing active listings with an asking price. Listing details come from Zillow, Redfin, Coldwell Banker, and public MLS image metadata; Zestimates are shown when available. Use MLS/IDX for complete live coverage.",
+    "listingMediaEnrichedAt": "2026-05-03T22:03:52.916Z",
+    "listingAskingPriceCandidates": 34,
+    "listingPhotoCandidates": 35,
+    "zestimateCandidates": 32,
+    "zestimateUnavailableCandidates": 3,
+    "activeForSaleCandidates": 34,
+    "hiddenMarketCandidates": 1
+  },
+  "candidates": [
+    {
+      "id": "pa-690-lincoln",
+      "address": "690 Lincoln Ave",
+      "city": "Palo Alto",
+      "zip": "94301",
+      "neighborhood": "Old Palo Alto edge",
+      "beds": 3,
+      "baths": 3,
+      "sqft": 1913,
+      "lot": "5,625 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 18,
+      "listedAt": "2026-04-26",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,980,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/690-Lincoln-Ave-Palo-Alto-CA-94301/19494770_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/14325/CA/Palo-Alto/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045155",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3980000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/55/_P/ML82045155_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/55/_P/ML82045155_P00.jpg?width=1000",
+        "zestimate": 4402900,
+        "zestimateLabel": "$4,402,900",
+        "zestimateRange": [
+          4007000,
+          4887000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Walter Hays Elementary School",
+            "grades": "K-5",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "high",
+            "testScorePercentile": 92,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5612-Walter-Hays-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Frank S. Greene Jr. Middle School",
+            "grades": "6-8",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "high",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5614-Frank-S.-Greene-Jr.-Middle/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Palo Alto High School",
+            "grades": "9-12",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "high",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5617-Palo-Alto-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [],
+      "luxuryNotes": [
+        "Prime Palo Alto address",
+        "Compact luxury scale",
+        "Walkable core"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "cu-10185-stonydale",
+      "address": "10185 Stonydale Dr",
+      "city": "Cupertino",
+      "zip": "95014",
+      "neighborhood": "Monta Vista foothills",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2648,
+      "lot": "0.32 acre lot",
+      "homeType": "Single family",
+      "daysOnMarket": 16,
+      "listedAt": "2026-04-28",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$4,000,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/10185-Stonydale-Dr-Cupertino-CA-95014/19626375_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/4561/CA/Cupertino/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82043195",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 4000000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/31/95/_P/ML82043195_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/31/95/_P/ML82043195_P00.jpg?width=1000",
+        "zestimate": 3914100,
+        "zestimateLabel": "$3,914,100",
+        "zestimateRange": [
+          3718000,
+          4110000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Stevens Creek Elementary School",
+            "grades": "K-5",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 93,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5449-Stevens-Creek-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          },
+          {
+            "name": "Abraham Lincoln Elementary School",
+            "grades": "K-5",
+            "district": "Cupertino Union",
+            "assignment": "possible",
+            "confidence": "low",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5439-Abraham-Lincoln-Elementary-School/#Test_scores",
+            "note": "Nearby possible boundary",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "John F. Kennedy Middle School",
+            "grades": "6-8",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5438-John-F.-Kennedy-Middle-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Monta Vista High School",
+            "grades": "9-12",
+            "district": "Fremont Union High",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5500-Monta-Vista-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Elementary assignment is marked medium confidence until boundary data is imported."
+      ],
+      "luxuryNotes": [
+        "Foothill setting",
+        "Large lot",
+        "Top score cluster"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "cu-10517-manzanita",
+      "address": "10517 Manzanita Ct",
+      "city": "Cupertino",
+      "zip": "95014",
+      "neighborhood": "Monta Vista",
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3786,
+      "lot": "0.34 acre lot",
+      "homeType": "Single family",
+      "daysOnMarket": 29,
+      "listedAt": "2026-04-15",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$5,595,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/10517-Manzanita-Ct-Cupertino-CA-95014/19632250_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/4561/CA/Cupertino/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045067",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 5595000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/50/67/_P/ML82045067_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/50/67/_P/ML82045067_P00.jpg?width=1000",
+        "zestimate": 6139400,
+        "zestimateLabel": "$6,139,400",
+        "zestimateRange": [
+          5832000,
+          6508000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Stevens Creek Elementary School",
+            "grades": "K-5",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 93,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5449-Stevens-Creek-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "John F. Kennedy Middle School",
+            "grades": "6-8",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5438-John-F.-Kennedy-Middle-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Monta Vista High School",
+            "grades": "9-12",
+            "district": "Fremont Union High",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5500-Monta-Vista-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Confirm high-school assignment with Fremont Union High before relying on the candidate score."
+      ],
+      "luxuryNotes": [
+        "Large home",
+        "Cul-de-sac",
+        "Expanded footprint"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "la-50-los-altos",
+      "address": "50 Los Altos Ave",
+      "city": "Los Altos",
+      "zip": "94022",
+      "neighborhood": "North Los Altos",
+      "beds": 5,
+      "baths": 4,
+      "sqft": 2280,
+      "lot": "0.34 acre lot",
+      "homeType": "Single family",
+      "daysOnMarket": 14,
+      "listedAt": "2026-04-30",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,998,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/50-Los-Altos-Ave-Los-Altos-CA-94022/19523668_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/10940/CA/Los-Altos/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045280",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3998000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/80/_P/ML82045280_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/80/_P/ML82045280_P00.jpg?width=1000",
+        "zestimate": 4327000,
+        "zestimateLabel": "$4,327,000",
+        "zestimateRange": [
+          4111000,
+          4543000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Gardner Bullis Elementary School",
+            "grades": "K-6",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos-hills/15008-Gardner-Bullis-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          },
+          {
+            "name": "Covington Elementary School",
+            "grades": "K-6",
+            "district": "Los Altos Elementary",
+            "assignment": "possible",
+            "confidence": "low",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/12456-Covington-Elementary-School/#Test_scores",
+            "note": "Nearby possible boundary",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Ardis G. Egan Junior High School",
+            "grades": "7-8",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5517-Ardis-G.-Egan-Junior-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Los Altos High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5580-Los-Altos-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "North Los Altos homes can sit near elementary boundary changes; keep this flagged until assignment-zone data is imported."
+      ],
+      "luxuryNotes": [
+        "Fresh listing",
+        "Large lot",
+        "North Los Altos"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "la-595-springer",
+      "address": "595 Springer Ter",
+      "city": "Los Altos",
+      "zip": "94024",
+      "neighborhood": "South Los Altos",
+      "beds": 4,
+      "baths": 5,
+      "sqft": 4347,
+      "lot": "10,625 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 20,
+      "listedAt": "2026-04-24",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$7,488,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/595-Springer-Ter-Los-Altos-CA-94024/19531465_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/10940/CA/Los-Altos/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045176",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 7488000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/76/_P/ML82045176_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/76/_P/ML82045176_P00.jpg?width=1000",
+        "zestimateLabel": "Zestimate unavailable",
+        "zestimateSource": "Zillow",
+        "zestimateStatus": "unavailable",
+        "zestimateNote": "Zillow returned no Zestimate for this active listing."
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Covington Elementary School",
+            "grades": "K-6",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/12456-Covington-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Ardis G. Egan Junior High School",
+            "grades": "7-8",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5517-Ardis-G.-Egan-Junior-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Los Altos High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5580-Los-Altos-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [],
+      "luxuryNotes": [
+        "4,000+ sq ft",
+        "Premium footprint",
+        "High school cluster"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate is marked unavailable where Zillow did not expose a supported current Zestimate."
+    },
+    {
+      "id": "la-928-altos-oaks",
+      "address": "928 Altos Oaks Dr",
+      "city": "Los Altos",
+      "zip": "94024",
+      "neighborhood": "Altos Oaks",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2777,
+      "lot": "10,185 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 32,
+      "listedAt": "2026-04-12",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$5,080,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/928-Altos-Oaks-Dr-Los-Altos-CA-94024/19530108_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/10940/CA/Los-Altos/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045107",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 5080000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/07/_P/ML82045107_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/07/_P/ML82045107_P00.jpg?width=1000",
+        "zestimate": 5007400,
+        "zestimateLabel": "$5,007,400",
+        "zestimateRange": [
+          4757000,
+          5258000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Oak Avenue Elementary School",
+            "grades": "K-6",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5519-Oak-Avenue-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Georgina P. Blach Junior High School",
+            "grades": "7-8",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5515-Georgina-P.-Blach-Junior-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Mountain View High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5581-Mountain-View-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [],
+      "luxuryNotes": [
+        "Large lot",
+        "Quiet residential pocket",
+        "Balanced scores"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "pa-649-seneca",
+      "address": "649 Seneca St",
+      "city": "Palo Alto",
+      "zip": "94301",
+      "neighborhood": "Professorville",
+      "beds": 4,
+      "baths": 4,
+      "sqft": 2095,
+      "lot": "5,000 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 23,
+      "listedAt": "2026-04-21",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$5,250,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/649-Seneca-St-Palo-Alto-CA-94301/19466776_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/14325/CA/Palo-Alto/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045242",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 5250000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/42/_P/ML82045242_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/42/_P/ML82045242_P00.jpg?width=1000",
+        "zestimate": 5192300,
+        "zestimateLabel": "$5,192,300",
+        "zestimateRange": [
+          4933000,
+          5452000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Addison Elementary School",
+            "grades": "K-5",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 91,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5603-Addison-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          },
+          {
+            "name": "Walter Hays Elementary School",
+            "grades": "K-5",
+            "district": "Palo Alto Unified",
+            "assignment": "possible",
+            "confidence": "low",
+            "testScorePercentile": 92,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5612-Walter-Hays-Elementary-School/#Test_scores",
+            "note": "Nearby possible boundary",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Frank S. Greene Jr. Middle School",
+            "grades": "6-8",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5614-Frank-S.-Greene-Jr.-Middle/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Palo Alto High School",
+            "grades": "9-12",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5617-Palo-Alto-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Professorville parcels should be checked against Palo Alto Unified boundary lookup because elementary assignments can change near downtown."
+      ],
+      "luxuryNotes": [
+        "Historic neighborhood",
+        "4 baths",
+        "Central Palo Alto"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "pa-1027-waverley",
+      "address": "1027 Waverley St",
+      "city": "Palo Alto",
+      "zip": "94301",
+      "neighborhood": "Old Palo Alto",
+      "beds": 6,
+      "baths": 8,
+      "sqft": 7474,
+      "lot": "10,000 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 56,
+      "listedAt": "2026-03-19",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$16,980,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/1027-Waverley-St-Palo-Alto-CA-94301/19495329_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/14325/CA/Palo-Alto/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82041060",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 16980000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/10/60/_P/ML82041060_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/10/60/_P/ML82041060_P00.jpg?width=1000",
+        "zestimate": 16255800,
+        "zestimateLabel": "$16,255,800",
+        "zestimateRange": [
+          15443000,
+          17069000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Addison Elementary School",
+            "grades": "K-5",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 91,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5603-Addison-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Frank S. Greene Jr. Middle School",
+            "grades": "6-8",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5614-Frank-S.-Greene-Jr.-Middle/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Palo Alto High School",
+            "grades": "9-12",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5617-Palo-Alto-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [],
+      "luxuryNotes": [
+        "Estate scale",
+        "7,000+ sq ft",
+        "Old Palo Alto"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "cu-21075-greenleaf",
+      "address": "21075 Greenleaf Dr",
+      "city": "Cupertino",
+      "zip": "95014",
+      "neighborhood": "Rancho Rinconada edge",
+      "beds": 5,
+      "baths": 3,
+      "sqft": 3268,
+      "lot": "10,626 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 40,
+      "listedAt": "2026-04-04",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$4,280,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/21075-Greenleaf-Dr-Cupertino-CA-95014/19625205_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/4561/CA/Cupertino/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82044311",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 4280000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/43/11/_P/ML82044311_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/43/11/_P/ML82044311_P00.jpg?width=1000",
+        "zestimate": 4693700,
+        "zestimateLabel": "$4,693,700",
+        "zestimateRange": [
+          4271000,
+          5210000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "William Faria Elementary School",
+            "grades": "K-5",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "low",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5435-William-Faria-Elementary-School/#Test_scores",
+            "note": "Application/assignment needs verification",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          },
+          {
+            "name": "Garden Gate Elementary School",
+            "grades": "K-5",
+            "district": "Cupertino Union",
+            "assignment": "possible",
+            "confidence": "medium",
+            "testScorePercentile": 86,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5436-Garden-Gate-Elementary-School/#Test_scores",
+            "note": "Possible neighborhood assignment",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Sam H. Lawson Middle School",
+            "grades": "6-8",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/14794-Sam-H.-Lawson-Middle-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Cupertino High School",
+            "grades": "9-12",
+            "district": "Fremont Union High",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5496-Cupertino-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "This candidate is intentionally flagged because the elementary score depends on a possible school assignment that needs authoritative confirmation."
+      ],
+      "luxuryNotes": [
+        "Large lot",
+        "5 bedrooms",
+        "Cupertino schools"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "hb-3000-ralston",
+      "address": "3000 Ralston Ave",
+      "city": "Hillsborough",
+      "zip": "94010",
+      "neighborhood": "Skyfarm",
+      "beds": 6,
+      "baths": 17,
+      "sqft": 12404,
+      "lot": "12.33 acre lot",
+      "homeType": "Single family",
+      "daysOnMarket": 241,
+      "listedAt": "2025-09-15",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$88,000,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/3000-Ralston-Ave-Hillsborough-CA-94010/15519316_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/8309/CA/Hillsborough/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82024133",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 88000000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/02/41/33/_P/ML82024133_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/02/41/33/_P/ML82024133_P00.jpg?width=1000",
+        "zestimate": 77638200,
+        "zestimateLabel": "$77,638,200",
+        "zestimateRange": [
+          72204000,
+          83073000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "West Hillsborough Elementary School",
+            "grades": "K-5",
+            "district": "Hillsborough City Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/hillsborough/6862-West-Hillsborough-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Crocker Middle School",
+            "grades": "6-8",
+            "district": "Hillsborough City Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/hillsborough/6859-Crocker-Middle-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Burlingame High School",
+            "grades": "9-12",
+            "district": "San Mateo Union High",
+            "assignment": "primary",
+            "confidence": "low",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/burlingame/6976-Burlingame-High-School/#Test_scores",
+            "note": "Possible high school assignment",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          },
+          {
+            "name": "San Mateo High School",
+            "grades": "9-12",
+            "district": "San Mateo Union High",
+            "assignment": "possible",
+            "confidence": "low",
+            "testScorePercentile": 81,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6981-San-Mateo-High-School/#Test_scores",
+            "note": "Alternate possible high school",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Hillsborough high-school assignment should be verified with San Mateo Union High boundaries before this is treated as eligible."
+      ],
+      "luxuryNotes": [
+        "Estate compound",
+        "Very long market time",
+        "Large acreage"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "mv-202-monroe",
+      "address": "202 Monroe Dr",
+      "city": "Mountain View",
+      "zip": "94040",
+      "neighborhood": "Los Altos border",
+      "beds": 4,
+      "baths": 5,
+      "sqft": 3237,
+      "lot": "10,000 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 22,
+      "listedAt": "2026-04-22",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$5,595,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/202-Monroe-Dr-Mountain-View-CA-94040/19510015_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/12739/CA/Mountain-View/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045500",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 5595000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/55/00/_P/ML82045500_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/55/00/_P/ML82045500_P00.jpg?width=1000",
+        "zestimateLabel": "Zestimate unavailable",
+        "zestimateSource": "Zillow",
+        "zestimateStatus": "unavailable",
+        "zestimateNote": "Current listing is a to-be-built/new-construction record; automated estimates are not exposed for the active listing."
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Springer Elementary School",
+            "grades": "K-6",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "low",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5521-Springer-Elementary-School/#Test_scores",
+            "note": "Possible assignment near Los Altos boundary",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          },
+          {
+            "name": "Bubb Elementary School",
+            "grades": "K-5",
+            "district": "Mountain View Whisman",
+            "assignment": "possible",
+            "confidence": "low",
+            "testScorePercentile": 90,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5574-Benjamin-Bubb-Elementary-School/#Test_scores",
+            "note": "Alternate possible district",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Georgina P. Blach Junior High School",
+            "grades": "7-8",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "low",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5515-Georgina-P.-Blach-Junior-High-School/#Test_scores",
+            "note": "Possible assignment near Los Altos boundary",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Mountain View High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5581-Mountain-View-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "This is a high-potential border candidate, but the elementary/middle path is low confidence until boundary data is imported."
+      ],
+      "luxuryNotes": [
+        "Large lot",
+        "Fresh listing",
+        "Border candidate"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate is marked unavailable where Zillow did not expose a supported current Zestimate."
+    },
+    {
+      "id": "mv-806-emily",
+      "address": "806 Emily Dr",
+      "city": "Mountain View",
+      "zip": "94043",
+      "neighborhood": "North Mountain View",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2017,
+      "lot": "6,500 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 25,
+      "listedAt": "2026-04-19",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,288,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/806-Emily-Dr-Mountain-View-CA-94043/19516752_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/12739/CA/Mountain-View/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82043894",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3288000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/38/94/_P/ML82043894_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/38/94/_P/ML82043894_P00.jpg?width=1000",
+        "zestimate": 3616500,
+        "zestimateLabel": "$3,616,500",
+        "zestimateRange": [
+          3436000,
+          3797000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Theuerkauf Elementary School",
+            "grades": "K-5",
+            "district": "Mountain View Whisman",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 49,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/12072-Theuerkauf-Elementary-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 5,
+            "greatSchoolsRating": 5,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Crittenden Middle School",
+            "grades": "6-8",
+            "district": "Mountain View Whisman",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 83,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/12070-Crittenden-Middle-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "Mountain View High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5581-Mountain-View-High-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Fails the current 95% all-three-school rule because elementary and middle school scores are below threshold."
+      ],
+      "luxuryNotes": [
+        "Fresh listing",
+        "Compact footprint",
+        "Fails school threshold"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "hb-1407-carlton",
+      "address": "1407 Carlton Rd",
+      "city": "Hillsborough",
+      "zip": "94010",
+      "neighborhood": "Lower Hillsborough",
+      "beds": 4,
+      "baths": 4,
+      "sqft": 4078,
+      "lot": "0.34 acre lot",
+      "homeType": "Single family",
+      "daysOnMarket": 78,
+      "listedAt": "2026-02-24",
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,500,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/1407-Carlton-Rd-Hillsborough-CA-94010/15519652_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "redfinUrl": "https://www.redfin.com/city/8309/CA/Hillsborough/filter/property-type=house,min-beds=3,min-baths=3",
+        "marketStatus": "active",
+        "mlsNumber": "ML82040479",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3500000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/04/79/_P/ML82040479_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/04/79/_P/ML82040479_P00.jpg?width=1000",
+        "zestimate": 3547600,
+        "zestimateLabel": "$3,547,600",
+        "zestimateRange": [
+          3370000,
+          3725000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "South Hillsborough Elementary School",
+            "grades": "K-5",
+            "district": "Hillsborough City Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/hillsborough/6861-South-Hillsborough-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Crocker Middle School",
+            "grades": "6-8",
+            "district": "Hillsborough City Elementary",
+            "assignment": "primary",
+            "confidence": "medium",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/hillsborough/6859-Crocker-Middle-School/#Test_scores",
+            "note": "Primary assignment; score verified",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ],
+        "high": [
+          {
+            "name": "San Mateo High School",
+            "grades": "9-12",
+            "district": "San Mateo Union High",
+            "assignment": "primary",
+            "confidence": "low",
+            "testScorePercentile": 81,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6981-San-Mateo-High-School/#Test_scores",
+            "note": "Possible high school assignment",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "scoreStatus": "verified"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Fails the 95% rule under the current seeded high-school score; verify exact high-school assignment before discarding."
+      ],
+      "luxuryNotes": [
+        "4,000+ sq ft",
+        "Hillsborough",
+        "High-school review"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing school data. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool."
+    },
+    {
+      "id": "pa-2330-emerson",
+      "address": "2330 Emerson St",
+      "city": "Palo Alto",
+      "zip": "94301",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1692,
+      "lot": "5,600 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 3,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,598,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/2330-Emerson-St-Palo-Alto-CA-94301/19497377_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045214",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3598000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/14/_P/ML82045214_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/14/_P/ML82045214_P00.jpg?width=1000",
+        "zestimate": 3525600,
+        "zestimateLabel": "$3,525,600",
+        "zestimateRange": [
+          3349000,
+          3702000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Walter Hays Elementary School",
+            "grades": "K-5",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 92,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5612-Walter-Hays-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Frank S. Greene Jr. Middle School",
+            "grades": "6-8",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5614-Frank-S.-Greene-Jr.-Middle/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Palo Alto High School",
+            "grades": "9-12",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5617-Palo-Alto-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Palo-Alto/2330-Emerson-St-94301/home/1021482",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "pa-3609-south",
+      "address": "3609 South Ct",
+      "city": "Palo Alto",
+      "zip": "94306",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1175,
+      "lot": "6,160 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 2,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,798,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/3609-South-Ct-Palo-Alto-CA-94306/19503069_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045284",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2798000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/84/_P/ML82045284_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/84/_P/ML82045284_P00.jpg?width=1000",
+        "zestimate": 2765800,
+        "zestimateLabel": "$2,765,800",
+        "zestimateRange": [
+          2489000,
+          3098000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Fairmeadow Elementary School",
+            "grades": "K-5",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5609-Fairmeadow-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Jane Lathrop Stanford Middle School",
+            "grades": "6-8",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5619-Jane-Lathrop-Stanford-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Henry M. Gunn High School",
+            "grades": "9-12",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5611-Henry-M.-Gunn-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Palo-Alto/3609-South-Ct-94306/home/1541109",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "pa-860-marshall",
+      "address": "860 Marshall Dr",
+      "city": "Palo Alto",
+      "zip": "94303",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1493,
+      "lot": "7,156 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 2,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,195,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/860-Marshall-Dr-Palo-Alto-CA-94303/19499750_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045249",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3195000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/49/_P/ML82045249_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/49/_P/ML82045249_P00.jpg?width=1000",
+        "zestimate": 3211000,
+        "zestimateLabel": "$3,211,000",
+        "zestimateRange": [
+          3050000,
+          3372000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Palo Verde Elementary School",
+            "grades": "K-5",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5618-Palo-Verde-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Jane Lathrop Stanford Middle School",
+            "grades": "6-8",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5619-Jane-Lathrop-Stanford-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Palo Alto High School",
+            "grades": "9-12",
+            "district": "Palo Alto Unified",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/palo-alto/5617-Palo-Alto-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.realtor.com/realestateandhomes-detail/860-Marshall-Dr_Palo-Alto_CA_94303_M25396-12277",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "la-151-lyell",
+      "address": "151 Lyell St",
+      "city": "Los Altos",
+      "zip": "94022",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1200,
+      "lot": "7,500 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 5,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,151,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/151-Lyell-St-Los-Altos-CA-94022/19526108_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045167",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3151000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/67/_P/ML82045167_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/67/_P/ML82045167_P00.jpg?width=1000",
+        "zestimate": 3129400,
+        "zestimateLabel": "$3,129,400",
+        "zestimateRange": [
+          2973000,
+          3286000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Covington Elementary School",
+            "grades": "K-6",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/12456-Covington-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Ardis G. Egan Junior High School",
+            "grades": "7-8",
+            "district": "Los Altos Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5517-Ardis-G.-Egan-Junior-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Los Altos High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/los-altos/5580-Los-Altos-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Los-Altos/151-Lyell-St-94022/home/1432363",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "cu-10619-nathanson",
+      "address": "10619 Nathanson Ave",
+      "city": "Cupertino",
+      "zip": "95014",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1852,
+      "lot": "8,176 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 2,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,995,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/10619-Nathanson-Ave-Cupertino-CA-95014/19626748_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "426122179",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2995000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://photos.zillowstatic.com/fp/b9787836ae7b2fd5519a2825858d2a17-cc_ft_960.jpg",
+        "imageSource": "Zillow listing photo",
+        "imageSourceUrl": "https://photos.zillowstatic.com/fp/b9787836ae7b2fd5519a2825858d2a17-cc_ft_960.jpg",
+        "zestimate": 3296200,
+        "zestimateLabel": "$3,296,200",
+        "zestimateRange": [
+          3131000,
+          3494000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Garden Gate Elementary School",
+            "grades": "K-5",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 86,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5436-Garden-Gate-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Sam H. Lawson Middle School",
+            "grades": "6-8",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/14794-Sam-H.-Lawson-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Monta Vista High School",
+            "grades": "9-12",
+            "district": "Fremont Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5500-Monta-Vista-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Cupertino/10619-Nathanson-Ave-95014/home/1673711",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "cu-7733-lilac",
+      "address": "7733 Lilac Way",
+      "city": "Cupertino",
+      "zip": "95014",
+      "neighborhood": "Assignment pending",
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1635,
+      "lot": "6,600 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 29,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,898,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/7733-Lilac-Way-Cupertino-CA-95014/19634573_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82043192",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2898000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/31/92/_P/ML82043192_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/31/92/_P/ML82043192_P00.jpg?width=1000",
+        "zestimate": 3229400,
+        "zestimateLabel": "$3,229,400",
+        "zestimateRange": [
+          3068000,
+          3391000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Abraham Lincoln Elementary School",
+            "grades": "K-5",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5439-Abraham-Lincoln-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "John F. Kennedy Middle School",
+            "grades": "6-8",
+            "district": "Cupertino Union",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5438-John-F.-Kennedy-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Monta Vista High School",
+            "grades": "9-12",
+            "district": "Fremont Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/cupertino/5500-Monta-Vista-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation.",
+        "Listing portals disagree on the elementary school for this address; Redfin/listing text shows Lincoln, while a SchoolDigger syndication page shows Regnart. Verify district boundary before treating this as final."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Cupertino/7733-Lilac-Way-95014/home/1313651",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "mv-3397-ivan",
+      "address": "3397 Ivan Way",
+      "city": "Mountain View",
+      "zip": "94040",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1932,
+      "lot": "8,034 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 4,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,198,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/3397-Ivan-Way-Mountain-View-CA-94040/19534654_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045274",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3198000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/74/_P/ML82045274_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/74/_P/ML82045274_P00.jpg?width=1000",
+        "zestimate": 2906300,
+        "zestimateLabel": "$2,906,300",
+        "zestimateRange": [
+          2645000,
+          3197000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Amy Imai Elementary",
+            "grades": "K-5",
+            "district": "Mountain View Whisman",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Isaac Newton Graham Middle School",
+            "grades": "6-8",
+            "district": "Mountain View Whisman",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 82,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5576-Isaac-Newton-Graham-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Mountain View High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5581-Mountain-View-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Mountain-View/3397-Ivan-Way-94040/home/1281180",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "mv-1515-miramonte",
+      "address": "1515 Miramonte Ave",
+      "city": "Mountain View",
+      "zip": "94040",
+      "neighborhood": "Assignment pending",
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1490,
+      "lot": "6,534 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 67,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,699,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/1515-Miramonte-Ave-Mountain-View-CA-94040/19532974_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "41125051",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2699000,
+        "priceSource": "Indexed listing page",
+        "priceNote": "Price cut to $2,699,000 on April 21, 2026.",
+        "imageUrl": "https://photos.zillowstatic.com/fp/5348cbd36e54871a2cfe331a476e40c6-cc_ft_960.jpg",
+        "imageSource": "Zillow listing photo",
+        "imageSourceUrl": "https://photos.zillowstatic.com/fp/5348cbd36e54871a2cfe331a476e40c6-cc_ft_960.jpg",
+        "zestimate": 2663500,
+        "zestimateLabel": "$2,663,500",
+        "zestimateRange": [
+          2530000,
+          2797000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Benjamin Bubb Elementary School",
+            "grades": "K-5",
+            "district": "Mountain View Whisman",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 90,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5574-Benjamin-Bubb-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Isaac Newton Graham Middle School",
+            "grades": "6-8",
+            "district": "Mountain View Whisman",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 82,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5576-Isaac-Newton-Graham-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Mountain View High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5581-Mountain-View-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Mountain-View/1515-Miramonte-Ave-94040/home/1057580",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "mv-801-rebecca",
+      "address": "801 Rebecca Privada",
+      "city": "Mountain View",
+      "zip": "94040",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1703,
+      "lot": "3,800 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 26,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,150,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/801-Rebecca-Privada-Mountain-View-CA-94040/19536645_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82043363",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2150000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/33/63/_P/ML82043363_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/33/63/_P/ML82043363_P00.jpg?width=1000",
+        "zestimate": 2131700,
+        "zestimateLabel": "$2,131,700",
+        "zestimateRange": [
+          2025000,
+          2238000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Amy Imai Elementary",
+            "grades": "K-5",
+            "district": "Mountain View Whisman",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/10862-Frank-L.-Huff-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Isaac Newton Graham Middle School",
+            "grades": "6-8",
+            "district": "Mountain View Whisman",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 82,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5576-Isaac-Newton-Graham-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Mountain View High School",
+            "grades": "9-12",
+            "district": "Mountain View-Los Altos Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 96,
+            "sourceUrl": "https://www.greatschools.org/california/mountain-view/5581-Mountain-View-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Mountain-View/801-Rebecca-Privada-94040/home/649411",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "sm-226-fremont",
+      "address": "226 N Fremont St",
+      "city": "San Mateo",
+      "zip": "94401",
+      "neighborhood": "Assignment pending",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 3020,
+      "lot": "8,350 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 13,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$1,598,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/226-N-Fremont-St-San-Mateo-CA-94401/15523064_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82044463",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 1598000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/44/63/_P/ML82044463_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/44/63/_P/ML82044463_P00.jpg?width=1000",
+        "zestimate": 1838800,
+        "zestimateLabel": "$1,838,800",
+        "zestimateRange": [
+          1710000,
+          1968000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Baywood Elementary School",
+            "grades": "K-5",
+            "district": "San Mateo-Foster City",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 77,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6958-Baywood-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 8,
+            "greatSchoolsRating": 7,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Borel Middle School",
+            "grades": "6-8",
+            "district": "San Mateo-Foster City",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 62,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6960-Borel-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 7,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "San Mateo High School",
+            "grades": "9-12",
+            "district": "San Mateo Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 81,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6981-San-Mateo-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/San-Mateo/226-N-Fremont-St-94401/home/1973068",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "sm-453-26th",
+      "address": "453 26th Ave",
+      "city": "San Mateo",
+      "zip": "94403",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1907,
+      "lot": "5,215 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 2,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,095,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/453-26th-Ave-San-Mateo-CA-94403/15536242_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045318",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2095000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/53/18/_P/ML82045318_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/53/18/_P/ML82045318_P00.jpg?width=1000",
+        "zestimate": 2353000,
+        "zestimateLabel": "$2,353,000",
+        "zestimateRange": [
+          2165000,
+          2541000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Beresford Elementary School",
+            "grades": "K-5",
+            "district": "San Mateo-Foster City",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 46,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6959-Beresford-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 5,
+            "greatSchoolsRating": 4,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Abbott Middle School",
+            "grades": "6-8",
+            "district": "San Mateo-Foster City",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 47,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6955-Abbott-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 5,
+            "greatSchoolsRating": 4,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Hillsdale High School",
+            "grades": "9-12",
+            "district": "San Mateo Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 84,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6978-Hillsdale-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.zillow.com/homedetails/453-26th-Ave-San-Mateo-CA-94403/15536242_zpid/",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "sm-2044-lexington",
+      "address": "2044 Lexington Ave",
+      "city": "San Mateo",
+      "zip": "94402",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1656,
+      "lot": "7,590 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 2,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,498,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/2044-Lexington-Ave-San-Mateo-CA-94402/15541940_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82044883",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2498000,
+        "priceSource": "Indexed listing page",
+        "priceNote": "Coldwell Banker shows this as active and just listed.",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/48/83/_P/ML82044883_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/48/83/_P/ML82044883_P00.jpg?width=1000",
+        "zestimate": 2476300,
+        "zestimateLabel": "$2,476,300",
+        "zestimateRange": [
+          2352000,
+          2600000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Highlands Elementary School",
+            "grades": "K-5",
+            "district": "San Mateo-Foster City",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 79,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6966-Highlands-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 8,
+            "greatSchoolsRating": 7,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Borel Middle School",
+            "grades": "6-8",
+            "district": "San Mateo-Foster City",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 62,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6960-Borel-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 7,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Aragon High School",
+            "grades": "9-12",
+            "district": "San Mateo Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/san-mateo/6975-Aragon-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/San-Mateo/2044-Lexington-Ave-94402/home/1230126",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "sc-1385-elm",
+      "address": "1385 Elm St",
+      "city": "San Carlos",
+      "zip": "94070",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1760,
+      "lot": "6,110 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 88,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$1,249,950",
+        "sourceUrl": "https://www.zillow.com/homedetails/1385-Elm-St-San-Carlos-CA-94070/15562075_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82033475",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 1249950,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/03/34/75/_P/ML82033475_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/03/34/75/_P/ML82033475_P00.jpg?width=1000",
+        "zestimate": 1444100,
+        "zestimateLabel": "$1,444,100",
+        "zestimateRange": [
+          1372000,
+          1516000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "White Oaks Elementary School",
+            "grades": "K-3",
+            "district": "San Carlos Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 94,
+            "sourceUrl": "https://www.greatschools.org/california/san-carlos/6949-White-Oaks-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Central Middle School",
+            "grades": "6-8",
+            "district": "San Carlos Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/san-carlos/6946-Central-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Sequoia High School",
+            "grades": "9-12",
+            "district": "Sequoia Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 62,
+            "sourceUrl": "https://www.greatschools.org/california/redwood-city/6953-Sequoia-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 7,
+            "greatSchoolsRating": 7,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation.",
+        "San Carlos has a K-3 plus 4-5 upper-elementary pathway. Arroyo Upper Elementary appears in source results as the nearby 4-5 continuation and should be modeled separately."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.zillow.com/homedetails/1385-Elm-St-San-Carlos-CA-94070/15562075_zpid/",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "sc-875-buckland",
+      "address": "875 Buckland Ave",
+      "city": "San Carlos",
+      "zip": "94070",
+      "neighborhood": "Assignment pending",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2223,
+      "lot": "7,200 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 1,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,698,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/875-Buckland-Ave-San-Carlos-CA-94070/15550218_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045198",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2698000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/98/_P/ML82045198_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/98/_P/ML82045198_P00.jpg?width=1000",
+        "zestimateLabel": "Zestimate unavailable",
+        "zestimateSource": "Zillow",
+        "zestimateStatus": "unavailable",
+        "zestimateNote": "The active Zillow listing page shows Zestimate as not available."
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Arundel Elementary School",
+            "grades": "K-3",
+            "district": "San Carlos Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/san-carlos/6944-Arundel-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Tierra Linda Middle School",
+            "grades": "6-8",
+            "district": "San Carlos Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/san-carlos/11861-Tierra-Linda-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Carlmont High School",
+            "grades": "9-12",
+            "district": "Sequoia Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6950-Carlmont-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation.",
+        "San Carlos has a K-3 plus 4-5 upper-elementary pathway. Mariposa Upper Elementary appears in source results as the 4-5 continuation and should be modeled separately."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate is marked unavailable where Zillow did not expose a supported current Zestimate.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.realty.com/home-listings/1058941560/875-Buckland-Avenue-San-Carlos-CA-94070",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "sc-948-alameda",
+      "address": "948 Alameda De Las Pulgas",
+      "city": "San Carlos",
+      "zip": "94070",
+      "neighborhood": "Assignment pending",
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2327,
+      "lot": "5,500 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 3,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,295,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/948-Alameda-De-Las-Pulgas-San-Carlos-CA-94070/15557945_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045221",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2295000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/21/_P/ML82045221_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/52/21/_P/ML82045221_P00.jpg?width=1000",
+        "zestimate": 2608400,
+        "zestimateLabel": "$2,608,400",
+        "zestimateRange": [
+          2426000,
+          2817000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Heather Elementary School",
+            "grades": "K-3",
+            "district": "San Carlos Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 84,
+            "sourceUrl": "https://www.greatschools.org/california/san-carlos/6948-Heather-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 9,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Tierra Linda Middle School",
+            "grades": "6-8",
+            "district": "San Carlos Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/san-carlos/11861-Tierra-Linda-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Carlmont High School",
+            "grades": "9-12",
+            "district": "Sequoia Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6950-Carlmont-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation.",
+        "San Carlos has a K-3 plus 4-5 upper-elementary pathway. The upper-elementary continuation should be verified with district boundary data."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.zillow.com/homedetails/948-Alameda-De-Las-Pulgas-San-Carlos-CA-94070/15557945_zpid/",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "bm-416-middle",
+      "address": "416 Middle Rd",
+      "city": "Belmont",
+      "zip": "94002",
+      "neighborhood": "Assignment pending",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2429,
+      "lot": "7,986 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 4,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,398,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/416-Middle-Rd-Belmont-CA-94002/15548512_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045102",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2398000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/02/_P/ML82045102_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/02/_P/ML82045102_P00.jpg?width=1000",
+        "zestimate": 2386300,
+        "zestimateLabel": "$2,386,300",
+        "zestimateRange": [
+          2267000,
+          2506000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Central Elementary School",
+            "grades": "K-5",
+            "district": "Belmont-Redwood Shores",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6837-Central-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Ralston Intermediate School",
+            "grades": "6-8",
+            "district": "Belmont-Redwood Shores",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6841-Ralston-Intermediate-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Carlmont High School",
+            "grades": "9-12",
+            "district": "Sequoia Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6950-Carlmont-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.trulia.com/home/416-middle-rd-belmont-ca-94002-15548512",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "bm-2945-san-juan",
+      "address": "2945 San Juan Blvd",
+      "city": "Belmont",
+      "zip": "94002",
+      "neighborhood": "Assignment pending",
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1640,
+      "lot": "8,725 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 6,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$1,198,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/2945-San-Juan-Blvd-Belmont-CA-94002/15546072_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82044867",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 1198000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/48/67/_P/ML82044867_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/48/67/_P/ML82044867_P00.jpg?width=1000",
+        "zestimate": 1385100,
+        "zestimateLabel": "$1,385,100",
+        "zestimateRange": [
+          1288000,
+          1482000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Cipriani Elementary School",
+            "grades": "K-5",
+            "district": "Belmont-Redwood Shores",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 93,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6838-Cipriani-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 8,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Ralston Intermediate School",
+            "grades": "6-8",
+            "district": "Belmont-Redwood Shores",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6841-Ralston-Intermediate-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Carlmont High School",
+            "grades": "9-12",
+            "district": "Sequoia Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6950-Carlmont-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Belmont/2945-San-Juan-Blvd-94002/home/2014456",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "bm-1336-academy",
+      "address": "1336 Academy Ct",
+      "city": "Belmont",
+      "zip": "94002",
+      "neighborhood": "Assignment pending",
+      "beds": 4,
+      "baths": 4,
+      "sqft": 3190,
+      "lot": "9,123 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 2,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,288,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/1336-Academy-Ct-Belmont-CA-94002/15549080_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045467",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3288000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/54/67/_P/ML82045467_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/54/67/_P/ML82045467_P00.jpg?width=1000",
+        "zestimate": 3233700,
+        "zestimateLabel": "$3,233,700",
+        "zestimateRange": [
+          3072000,
+          3395000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Central Elementary School",
+            "grades": "K-5",
+            "district": "Belmont-Redwood Shores",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 99,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6837-Central-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Ralston Intermediate School",
+            "grades": "6-8",
+            "district": "Belmont-Redwood Shores",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 98,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6841-Ralston-Intermediate-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Carlmont High School",
+            "grades": "9-12",
+            "district": "Sequoia Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/belmont/6950-Carlmont-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Belmont/1336-Academy-Ave-94002/home/1122735",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "lg-16371-aztec",
+      "address": "16371 Aztec Ridge Dr",
+      "city": "Los Gatos",
+      "zip": "95030",
+      "neighborhood": "Assignment pending",
+      "beds": 5,
+      "baths": 5,
+      "sqft": 5484,
+      "lot": "2.03 acre lot",
+      "homeType": "Single family",
+      "daysOnMarket": 41,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$6,298,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/16371-Aztec-Ridge-Dr-Los-Gatos-CA-95030/19750941_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82039380",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 6298000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/03/93/80/_P/ML82039380_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/03/93/80/_P/ML82039380_P00.jpg?width=1000",
+        "zestimate": 6020100,
+        "zestimateLabel": "$6,020,100",
+        "zestimateRange": [
+          5719000,
+          6321000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Louise Van Meter Elementary School",
+            "grades": "K-5",
+            "district": "Los Gatos Union Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 91,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5529-Louise-Van-Meter-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Raymond J. Fisher Middle School",
+            "grades": "6-8",
+            "district": "Los Gatos Union Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5527-Raymond-J.-Fisher-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Los Gatos High School",
+            "grades": "9-12",
+            "district": "Los Gatos-Saratoga Joint Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 93,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5523-Los-Gatos-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Los-Gatos/16371-Aztec-Ridge-Dr-95030/home/1373866",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "lg-141-serra",
+      "address": "141 Serra Ct",
+      "city": "Los Gatos",
+      "zip": "95032",
+      "neighborhood": "Assignment pending",
+      "beds": 5,
+      "baths": 3,
+      "sqft": 2403,
+      "lot": "8,038 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 6,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$3,398,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/141-Serra-Ct-Los-Gatos-CA-95032/19749173_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82044860",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 3398000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/48/60/_P/ML82044860_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/48/60/_P/ML82044860_P00.jpg?width=1000",
+        "zestimate": 3322500,
+        "zestimateLabel": "$3,322,500",
+        "zestimateRange": [
+          3156000,
+          3489000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Louise Van Meter Elementary School",
+            "grades": "K-5",
+            "district": "Los Gatos Union Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 91,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5529-Louise-Van-Meter-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Raymond J. Fisher Middle School",
+            "grades": "6-8",
+            "district": "Los Gatos Union Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5527-Raymond-J.-Fisher-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Los Gatos High School",
+            "grades": "9-12",
+            "district": "Los Gatos-Saratoga Joint Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 93,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5523-Los-Gatos-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Los-Gatos/141-Serra-Ct-95032/home/1650147",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "lg-102-palo-colorado",
+      "address": "102 Palo Colorado Dr",
+      "city": "Los Gatos",
+      "zip": "95032",
+      "neighborhood": "Assignment pending",
+      "beds": 5,
+      "baths": 5,
+      "sqft": 3368,
+      "lot": "0.26 acre lot",
+      "homeType": "Single family",
+      "daysOnMarket": null,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "Off market",
+        "sourceUrl": "https://www.zillow.com/homedetails/102-Palo-Colorado-Dr-Los-Gatos-CA-95032/325806477_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "offMarket",
+        "mlsNumber": "ML81860547",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "priceNote": "Redfin shows this home as off market, sold April 2022.",
+        "imageUrl": "https://ssl.cdn-redfin.com/photo/10/bigphoto/547/ML81860547_0.jpg",
+        "imageSource": "Redfin historical listing photo",
+        "imageSourceUrl": "https://ssl.cdn-redfin.com/photo/10/bigphoto/547/ML81860547_0.jpg",
+        "zestimate": 4126500,
+        "zestimateLabel": "$4,126,500",
+        "zestimateRange": [
+          3879000,
+          4457000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Alta Vista Elementary School",
+            "grades": "K-5",
+            "district": "Union Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5710-Alta-Vista-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Union Middle School",
+            "grades": "6-8",
+            "district": "Union Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 97,
+            "sourceUrl": "https://www.greatschools.org/california/san-jose/5719-Union-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Leigh High School",
+            "grades": "9-12",
+            "district": "Campbell Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 91,
+            "sourceUrl": "https://www.greatschools.org/california/san-jose/5425-Leigh-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Market status is currently marked off market from indexed listing pages. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Los-Gatos/102-Palo-Colorado-Dr-95032/home/172955225",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    },
+    {
+      "id": "lg-87-college",
+      "address": "87 College Ave",
+      "city": "Los Gatos",
+      "zip": "95030",
+      "neighborhood": "Assignment pending",
+      "beds": 4,
+      "baths": 4,
+      "sqft": 2868,
+      "lot": "10,400 sq ft lot",
+      "homeType": "Single family",
+      "daysOnMarket": 3,
+      "listedAt": null,
+      "listing": {
+        "provider": "zillow",
+        "priceLabel": "$2,950,000",
+        "sourceUrl": "https://www.zillow.com/homedetails/87-College-Ave-Los-Gatos-CA-95030/54771873_zpid?utm_source=chatgpt.com&utm_campaign=gptconnector",
+        "marketStatus": "active",
+        "mlsNumber": "ML82045128",
+        "enrichedAt": "2026-05-03T22:03:52.916Z",
+        "askingPrice": 2950000,
+        "priceSource": "Indexed listing page",
+        "imageUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/28/_P/ML82045128_P00.jpg?width=1000",
+        "imageSource": "Coldwell Banker / CRMLS public listing image CDN",
+        "imageSourceUrl": "https://images-listings.coldwellbanker.com/CRMLS/ML/82/04/51/28/_P/ML82045128_P00.jpg?width=1000",
+        "zestimate": 3243900,
+        "zestimateLabel": "$3,243,900",
+        "zestimateRange": [
+          3082000,
+          3406000
+        ],
+        "zestimateSource": "Zillow Zestimate tool",
+        "zestimateStatus": "available"
+      },
+      "schools": {
+        "elementary": [
+          {
+            "name": "Louise Van Meter Elementary School",
+            "grades": "K-5",
+            "district": "Los Gatos Union Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 91,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5529-Louise-Van-Meter-Elementary-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "middle": [
+          {
+            "name": "Raymond J. Fisher Middle School",
+            "grades": "6-8",
+            "district": "Los Gatos Union Elementary",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 95,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5527-Raymond-J.-Fisher-Middle-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 9,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ],
+        "high": [
+          {
+            "name": "Los Gatos High School",
+            "grades": "9-12",
+            "district": "Los Gatos-Saratoga Joint Union High",
+            "assignment": "primary",
+            "confidence": "listing-source",
+            "testScorePercentile": 93,
+            "sourceUrl": "https://www.greatschools.org/california/los-gatos/5523-Los-Gatos-High-School/#Test_scores",
+            "note": "Assignment from listing-source school section",
+            "scoreStatus": "verified",
+            "scoreVerifiedAt": "2026-05-03T21:32:07.655Z",
+            "testScoreRating": 10,
+            "greatSchoolsRating": 10,
+            "scoreSource": "GreatSchools public profile RatingFactors"
+          }
+        ]
+      },
+      "assignmentNotes": [
+        "Assigned schools came from listing-source school sections and still need district-boundary confirmation."
+      ],
+      "luxuryNotes": [
+        "Expanded search candidate",
+        "3+ beds",
+        "2+ baths"
+      ],
+      "provenance": "Listing facts were sourced on May 3, 2026. Asking price, photo, and market status come from listing pages and public MLS image metadata. School assignments came from listing-source school sections. School Test Score percentiles were verified from GreatSchools public profiles where scoreStatus is verified. Zestimate values were pulled from Zillow's Zestimate tool.",
+      "assignmentSource": "Listing school information",
+      "assignmentSourceUrl": "https://www.redfin.com/CA/Los-Gatos/87-College-Ave-95030/home/1489246",
+      "assignmentStatus": "listing-source",
+      "assignmentVerifiedAt": "2026-05-03T21:30:47.435Z"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+name: Refresh SchoolFit Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Refresh data
+        run: npm run refresh
+
+      - name: Check syntax
+        run: npm run check
+
+      - name: Commit refreshed feed
+        run: |
+          if git diff --quiet -- data/candidates.json; then
+            echo "No feed changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/candidates.json
+          git commit -m "Refresh SchoolFit data"
+          git push

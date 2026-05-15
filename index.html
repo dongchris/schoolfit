@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SchoolFit ranks Bay Area home candidates by assigned-school GreatSchools test-score percentiles." />
+    <title>SchoolFit Bay Area</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%231d1d1f%22/%3E%3Ctext x=%2232%22 y=%2239%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2220%22 font-weight=%22700%22 fill=%22white%22%3ESF%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell" id="appShell">
+      <aside class="sidebar" aria-label="Filters">
+        <div class="brand">
+          <img class="brand-logo" src="./assets/schoolfit-logo.png" alt="SchoolFit" />
+          <button class="ghost-button icon-button sidebar-toggle" id="sidebarToggleButton" type="button" aria-pressed="false" aria-label="Hide filters sidebar" title="Hide filters">
+            <span class="button-icon" aria-hidden="true">◨</span>
+            <span class="visually-hidden sidebar-toggle-label">Hide filters</span>
+          </button>
+        </div>
+
+        <section class="filter-group" aria-labelledby="cityFilterLabel">
+          <div class="section-heading" id="cityFilterLabel">Cities</div>
+          <div class="checkbox-list" id="cityFilters"></div>
+        </section>
+
+        <section class="filter-group" aria-labelledby="scoreFilterLabel">
+          <div class="section-heading" id="scoreFilterLabel">School Floor</div>
+          <label class="range-label" for="scoreFloor">
+            <span>Minimum test score</span>
+            <strong id="scoreFloorValue">95%</strong>
+          </label>
+          <input id="scoreFloor" type="range" min="80" max="100" step="1" value="95" />
+          <label class="toggle-line">
+            <input id="onlyEligible" type="checkbox" />
+            <span>Only all three schools pass</span>
+          </label>
+        </section>
+
+        <section class="filter-group" aria-labelledby="homeFilterLabel">
+          <div class="section-heading" id="homeFilterLabel">Home</div>
+          <div class="filter-grid">
+            <label>
+              <span>Beds</span>
+              <input id="minBeds" type="number" min="1" max="12" value="3" />
+            </label>
+            <label>
+              <span>Baths</span>
+              <input id="minBaths" type="number" min="1" max="12" value="2" />
+            </label>
+          </div>
+          <label class="select-label">
+            <span>Days on market</span>
+            <select id="daysFilter">
+              <option value="any">Any</option>
+              <option value="14">14 days or less</option>
+              <option value="30">30 days or less</option>
+              <option value="60">60 days or less</option>
+              <option value="90">90 days or less</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="filter-group" aria-labelledby="sortFilterLabel">
+          <div class="section-heading" id="sortFilterLabel">Sort</div>
+          <div class="sort-stack" role="group" aria-label="Sort homes">
+            <div class="sort-row">
+              <span class="sort-label">Avg</span>
+              <span class="sort-direction" aria-label="Average score direction">
+                <button class="sort-button" type="button" data-sort-key="average" data-sort-direction="asc" title="Lowest average first">↑</button>
+                <button class="sort-button active" type="button" data-sort-key="average" data-sort-direction="desc" title="Highest average first">↓</button>
+              </span>
+            </div>
+            <div class="sort-row">
+              <span class="sort-label">Days</span>
+              <span class="sort-direction" aria-label="Days listed direction">
+                <button class="sort-button" type="button" data-sort-key="days" data-sort-direction="asc" title="Freshest first">↑</button>
+                <button class="sort-button" type="button" data-sort-key="days" data-sort-direction="desc" title="Oldest first">↓</button>
+              </span>
+            </div>
+            <div class="sort-row">
+              <span class="sort-label">Size</span>
+              <span class="sort-direction" aria-label="Size direction">
+                <button class="sort-button" type="button" data-sort-key="space" data-sort-direction="asc" title="Smallest first">↑</button>
+                <button class="sort-button" type="button" data-sort-key="space" data-sort-direction="desc" title="Largest first">↓</button>
+              </span>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <main class="content">
+        <header class="topbar">
+          <div>
+            <h2>Homes by school score</h2>
+          </div>
+          <div class="topbar-actions">
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="searchInput" type="search" placeholder="Search homes or schools" />
+            </label>
+            <button class="ghost-button icon-button" id="refreshButton" type="button" aria-label="Refresh market data" title="Refresh">
+              <span class="button-icon" aria-hidden="true">↻</span>
+              <span class="visually-hidden">Refresh</span>
+            </button>
+            <button class="ghost-button compact-button" id="exportButton" type="button" title="Export CSV">CSV</button>
+          </div>
+        </header>
+
+        <section class="summary-strip" aria-label="Summary">
+          <div>
+            <span class="metric-value" id="eligibleCount">--</span>
+            <span class="metric-label">verified eligible</span>
+          </div>
+          <div>
+            <span class="metric-value" id="bestAverage">--</span>
+            <span class="metric-label">best verified avg</span>
+          </div>
+          <div>
+            <span class="metric-value" id="freshCount">--</span>
+            <span class="metric-label">active pool</span>
+          </div>
+        </section>
+
+        <section class="workbench">
+          <div class="candidate-table" aria-label="Home rankings">
+            <div class="table-header">
+              <span>Rank</span>
+              <span>Photo</span>
+              <span>Home</span>
+              <span>Facts</span>
+              <span>Market</span>
+              <span>Avg</span>
+              <span>Schools</span>
+            </div>
+            <div class="candidate-list" id="candidateList" role="list"></div>
+            <div class="empty-state hidden" id="emptyState">
+              <strong>No matching homes</strong>
+              <span>Relax a filter or broaden the city selection.</span>
+            </div>
+          </div>
+
+          <aside class="inspector" aria-label="Selected home detail">
+            <div id="inspectorContent" class="inspector-content">
+              <div class="inspector-placeholder">Select a home to inspect its schools.</div>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
