@@ -1,5 +1,4 @@
 {
   "buildCommand": "npm run refresh && npm run check && npm run build",
-  "outputDirectory": "_site",
-  "framework": null
+  "outputDirectory": "_site"
 }
